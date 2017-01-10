@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Terminator</string>
+    <string name="app_instructions">Use this to kill a running application. When you go back to it via either the launcher or recent apps you will experience application recreation and all the nastiness that can ensue.</string>
+    <string name="confirm_app_kill">Are you sure you want to kill %s? Launch it again via the launcher icon or recent apps.</string>
+    <string name="kill_process">Killed %s</string>
+    <string name="yes">Yes</string>
+    <string name="no">no</string>
+    <string name="kill">Kill</string>
+</resources>
