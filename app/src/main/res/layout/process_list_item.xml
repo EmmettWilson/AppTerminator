@@ -15,12 +15,17 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:scaleType="centerCrop"/>
+        android:scaleType="fitCenter"
+        android:layout_gravity="center"
+        tools:src="@tools:sample/backgrounds/scenic"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        tools:text="Dodo" />
+        android:maxLines="2"
+        android:ellipsize="end"
+        tools:text="@tools:sample/lorem/random" />
 </LinearLayout>
