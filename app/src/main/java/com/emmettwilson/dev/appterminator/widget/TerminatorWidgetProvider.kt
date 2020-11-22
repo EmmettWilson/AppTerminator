@@ -1,4 +1,4 @@
-package com.mathematicalfunk.appterminator.widget
+package com.emmettwilson.dev.appterminator.widget
 
 import android.app.ActivityManager
 import android.app.PendingIntent
@@ -10,7 +10,7 @@ import android.content.pm.ApplicationInfo
 import android.graphics.drawable.BitmapDrawable
 import android.widget.RemoteViews
 import android.widget.Toast
-import com.mathematicalfunk.appterminator.R
+import com.emmettwilson.appterminator.R
 import java.util.*
 
 const val WIDGET_ID = "widget_id"

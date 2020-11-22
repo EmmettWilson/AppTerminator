@@ -1,4 +1,4 @@
-package com.mathematicalfunk.appterminator.application
+package com.emmettwilson.dev.appterminator.application
 
 import android.app.ActivityManager
 import android.content.pm.ApplicationInfo
@@ -7,7 +7,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.mathematicalfunk.appterminator.R
+import com.emmettwilson.appterminator.R
 import java.util.*
 
 class MainActivity : AppCompatActivity() {

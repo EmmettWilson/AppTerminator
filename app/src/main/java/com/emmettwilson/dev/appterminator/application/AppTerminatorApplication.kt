@@ -1,4 +1,4 @@
-package com.mathematicalfunk.appterminator.application
+package com.emmettwilson.dev.appterminator.application
 
 import android.app.Application
 

@@ -1,11 +1,11 @@
-package com.mathematicalfunk.appterminator.application
+package com.emmettwilson.dev.appterminator.application
 
 import android.app.ActivityManager
 import android.content.pm.ApplicationInfo
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.mathematicalfunk.appterminator.R
+import com.emmettwilson.appterminator.R
 
 class ProcessViewHolderAdapter(private val activityManager: ActivityManager) : RecyclerView.Adapter<ProcessViewHolder>() {
     private var applicationInfoList: List<ApplicationInfo>? = null
