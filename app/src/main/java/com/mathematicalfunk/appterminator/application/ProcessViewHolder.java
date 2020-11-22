@@ -1,14 +1,15 @@
 package com.mathematicalfunk.appterminator.application;
 
 import android.app.ActivityManager;
+import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.pm.ApplicationInfo;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.mathematicalfunk.appterminator.R;
 
