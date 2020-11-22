@@ -28,6 +28,4 @@ class ProcessViewHolder(itemView: View, private val activityManager: ActivityMan
                     }.setNegativeButton(R.string.no) { dialog, _ -> dialog.dismiss() }.create().show()
         }
     }
-
-
 }
